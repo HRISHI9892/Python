@@ -1,0 +1,10 @@
+rows = 5
+for i in range(rows):
+    num = 2 ** i # i is power of 2 or,  2 power i
+    row_numbers=[]
+
+    while num >= 1:
+        row_numbers.append(str(num))
+        num = num // 2
+
+    print(" ".join(row_numbers))
