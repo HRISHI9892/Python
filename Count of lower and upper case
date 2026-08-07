@@ -1,0 +1,12 @@
+user_input = input("Enter a string: ") 
+upper_count = 0
+lower_count = 0
+
+for char in user_input:
+    if char.isupper():
+        upper_count += 1
+    else:
+        lower_count += 1
+
+print(f"Number of upper case in {user_input} is {upper_count}.")
+print(f"Number of lower case in {user_input} is {lower_count}.")
