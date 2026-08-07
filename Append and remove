@@ -1,0 +1,15 @@
+fruits = ["Apple","Banana"]
+print("Initial list:", fruits)
+
+fruits.append("Mango")
+print("Append: ",fruits)
+
+fruits.remove("Banana")
+print("After removing 'Banana': ", fruits)
+
+item_to_remove = "Kiwi"
+if item_to_remove in fruits:
+    fruits.remove(item_to_remove)
+    print(f"After removing '{item_to_remove}': ",fruits)
+else:
+    print(f"'{item_to_remove}' not found in the list, Nothing removed.")
